@@ -1,0 +1,45 @@
+header{
+	text-align: center;
+}
+h1.title {
+	font-size:40px;
+	text-align: center;
+	padding:35px 25px 10px 25px;
+}
+ul {
+	padding:10px;
+	background: black;
+}
+li {
+	display: inline;
+	margin: 10px;
+	padding: 10px;
+}
+li.nav a:link, a:visited {
+	color:white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.logo {
+	padding: 10px;
+	padding-bottom: 15px;
+}
+.container {
+  margin:0 auto;
+  padding:50px;
+  width:50%;
+}
+p {
+	font-family: 'Helvetica'
+}
+a:link, a:visited{
+	color:black;
+	padding: 10px;
+	text-decoration: none;
+}
+/* mouse over link*/
+a:hover {
+	color:gray;
+
+}
