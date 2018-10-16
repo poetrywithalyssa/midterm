@@ -106,6 +106,17 @@ h5 {
 	font-size: 20px;
 	margin: 5px;
 }
+/* link links */
+.link a {
+	float: left;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+}
+/* link links change color on hover */
+.link a:hover {
+	text-decoration: underline;
+}
 h6 {
 	font-family: 'Helvetica';
 	font-weight: bold;
