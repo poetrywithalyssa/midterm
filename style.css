@@ -11,16 +11,24 @@ header{
 	padding: 10px;
 	padding-bottom: 15px;
 }
-ul {
-	padding:10px;
-	background: black;
+/* The navbar container */
+.topnav {
+	overflow: hidden;
+	background-color: black;
 }
-li.nav a:link, a:visited {
-	display: inline;
-	margin: 10px;
+/* Navbar links */
+.topnav a {
+	float: left;
+	display: block;
 	color: white;
+	text-align: center;
 	padding: 10px;
+	margin: 0px 60px 0px 67px;
 	text-decoration: none;
+}
+/* Navbar links change color on hover */
+.topnav a:hover {
+	color: gray;
 }
 .column {
 	float: left;
@@ -80,6 +88,8 @@ h1.title {
 h2 {
 	font-size: 35px;
 	text-align: center;
+	font-weight: bold;
+	font-family: 'Helvetica'
 }
 h3 {
 	font-family: 'Helvetica';
@@ -88,6 +98,7 @@ h3 {
 	text-align: center;
 	color: gray;
 	margin: 7px;
+	margin-top: 15px;
 }
 h5 {
 	font-family: 'Helvetica';
